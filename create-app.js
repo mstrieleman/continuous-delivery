@@ -9,6 +9,5 @@ module.exports = function createApp() {
       description: 'A practice repository for testing and deployment.'
     });
   });
-
   return app;
 };
