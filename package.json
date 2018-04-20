@@ -1,6 +1,9 @@
 {
   "name": "continuous-delivery",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.9.4"
+  },
   "description": "A practice repository for testing and deployment.",
   "main": "index.js",
   "scripts": {
