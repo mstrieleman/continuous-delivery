@@ -1,15 +1,13 @@
 const express = require('express');
 
-const inventoryItems = {
-  name: 'Continous Delivery Part One',
-  description: 'A practice repository for testing and deployment.'
-};
-
-module.export = function createApp() {
+module.exports = function createApp() {
   const app = express();
 
   app.get('/', (req, res) => {
-    res.json(inventoryItems);
+    res.json({
+      name: 'Continous Delivery Part One',
+      description: 'A practice repository for testing and deployment.'
+    });
   });
 
   return app;
