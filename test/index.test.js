@@ -17,7 +17,7 @@ describe('tests .get()', () => {
     });
   });
 
-  describe('GET /', () => {
+  describe('GET / Github: https://github.com/mstrieleman/continuous-delivery', () => {
     it('responds with a string of exercise description', done => {
       request('http://localhost:3000', (err, response, body) => {
         expect(err).to.equal(null);

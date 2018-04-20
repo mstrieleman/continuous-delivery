@@ -7,7 +7,7 @@
   "description": "A practice repository for testing and deployment.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node .",
     "test": "mocha test/",
     "tdd": "mocha test/ -w -R min",
     "cover": "nyc --reporter=lcov npm test"
